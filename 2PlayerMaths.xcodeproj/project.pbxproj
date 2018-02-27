@@ -14,6 +14,8 @@
 		D840D9AA203B89480036563B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D840D9A9203B89480036563B /* Assets.xcassets */; };
 		D840D9AD203B89480036563B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D840D9AB203B89480036563B /* LaunchScreen.storyboard */; };
 		D840D9B0203B89480036563B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D840D9AF203B89480036563B /* main.m */; };
+		D840D9B8203B8AFC0036563B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D840D9B7203B8AFC0036563B /* Player.m */; };
+		D840D9BB203B8B040036563B /* GameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = D840D9BA203B8B040036563B /* GameEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		D840D9AC203B89480036563B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D840D9AE203B89480036563B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D840D9AF203B89480036563B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D840D9B6203B8AFC0036563B /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D840D9B7203B8AFC0036563B /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		D840D9B9203B8B040036563B /* GameEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameEngine.h; sourceTree = "<group>"; };
+		D840D9BA203B8B040036563B /* GameEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,10 @@
 				D840D9A0203B89480036563B /* ViewController.h */,
 				D840D9A1203B89480036563B /* ViewController.m */,
 				D840D9A3203B89480036563B /* Main.storyboard */,
+				D840D9B6203B8AFC0036563B /* Player.h */,
+				D840D9B7203B8AFC0036563B /* Player.m */,
+				D840D9B9203B8B040036563B /* GameEngine.h */,
+				D840D9BA203B8B040036563B /* GameEngine.m */,
 				D840D9A9203B89480036563B /* Assets.xcassets */,
 				D840D9AB203B89480036563B /* LaunchScreen.storyboard */,
 				D840D9AE203B89480036563B /* Info.plist */,
@@ -149,6 +159,8 @@
 				D840D9A8203B89480036563B /* _PlayerMaths.xcdatamodeld in Sources */,
 				D840D9B0203B89480036563B /* main.m in Sources */,
 				D840D99F203B89480036563B /* AppDelegate.m in Sources */,
+				D840D9B8203B8AFC0036563B /* Player.m in Sources */,
+				D840D9BB203B8B040036563B /* GameEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

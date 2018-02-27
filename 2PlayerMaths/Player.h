@@ -10,4 +10,12 @@
 
 @interface Player : NSObject
 
+-(int) getCurrentScore;
+-(int) getLivesLeft;
+-(void) loseARound;
+-(void) winARound;
+-(NSString *) getName;
+-(instancetype)initWithNumberInName: (NSString *)number;
+
+
 @end

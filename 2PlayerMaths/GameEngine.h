@@ -7,7 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Player.h"
+
+
 
 @interface GameEngine : NSObject
+
+@property NSString *currentPromptString;
+@property Player *currentPlayer;
+@property NSString *currentPlayerAnswer;
+@property Player *player1;
+@property Player *player2;
+//@property int currentRound;
+@property BOOL gameOn;
+
+-(void)generateQuestion;
+-(void)checkIfPlayerAnswersCorrect;
+-(void)checkIfGameEnds;
+-(void)nextPlayer;
 
 @end
